@@ -1,0 +1,312 @@
+/*
+_____________
+|           |
+|  HEADER   |
+|___________|
+*/
+
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  green 10px,
+  yellow 10px,
+  #465298 20px
+);
+  bottom: 100px;
+  margin: 0px;
+  padding: 0px
+}
+
+.links {
+  text-decoration: none;
+  text-shadow: 1px 0 red;
+  display: inline-block;
+  padding: 20px;
+}
+
+.headerText {
+  position: absolute;
+  right: 100px;
+  top: 65px;
+}
+
+
+
+// // header nav {
+// //
+// // }
+//
+// header ul {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   margin: 0;
+//   align-items: baseline;
+//
+// }
+//
+// header nav ul li {
+//   list-style-type: none;
+//   position: relative;
+//   top: 70px;
+//
+//
+// }
+//
+// header a {
+//
+// }
+
+/*
+_____________
+|           |
+|  FOOTER   |
+|___________|
+*/
+.footer {
+  width: 100%;
+  height: 50px;
+  background: repeating-linear-gradient(
+  -55deg,
+  white,
+  green 10px,
+  yellow 10px,
+  #465298 20px
+);
+  bottom: 100px;
+
+}
+.footerText {
+    position: absolute;
+    right: 100px;
+  }
+
+
+
+
+
+
+
+.linksF {
+  text-decoration: none;
+  text-shadow: 1px 0 red;
+  display: inline-block;
+  padding: 20px;
+
+
+}
+
+.linksA{
+  text-decoration: none;
+  text-shadow: 1px 0 red;
+}
+
+
+/*
+_____________
+|           |
+| HomePage  |
+|___________|
+*/
+
+
+.crossfade > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 115px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 24s linear infinite 0s;
+}
+.crossfade > img:nth-child(2) {
+    background-image: src("http://d2gk7xgygi98cy.cloudfront.net/14-3-large.jpg");
+    animation-delay: 6s;
+}
+.crossfade > img:nth-child(3) {
+    background-image: src("http://danielchocolates.com/wp-content/uploads/2015/11/shop-pastries-banner.jpg");
+    animation-delay: 12s;
+}
+.crossfade > img:nth-child(4) {
+    background-image: src('https://afrostore.files.wordpress.com/2011/01/bread.jpg');
+    animation-delay: 18s;
+}
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1; }
+    25% { opacity: 0;
+      animation-timing-function: ease-in;}
+    100% { opacity: 0; }
+}
+
+
+
+/*
+_____________
+|           |
+|  Contact  |
+|___________|
+*/
+.addContact {
+  height: 500px;
+  width: 400px;
+}
+.form {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+.form2 {
+  position: absolute;
+  top: 520px;
+  right: 200px;
+}
+.form3 {
+  position: absolute;
+  top: 620px;
+  right: 200px;
+}
+.name, .email, .newName, .newEmail {
+  position: relative;
+  left: 50px;
+}
+.sbmCon {
+  position: absolute;
+  right: 20px;
+  top:430px;
+}
+.sbmDel {
+  position: absolute;
+  right: 230px;
+  top: 540px;
+}
+.sbmUpd {
+  position: absolute;
+  right: 230px;
+  top: 680px;
+}
+
+
+
+/*
+_____________
+|           |
+|   Menu    |
+|___________|
+*/
+
+// .menuItem1 {
+//   position: absolute;
+//   right: 20px;
+// }
+
+.crossfadeA > img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 115px;
+    right: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 24s linear infinite 0s;
+}
+.crossfadeA > img:nth-child(2) {
+    background-image: src("http://d2gk7xgygi98cy.cloudfront.net/14-3-large.jpg");
+    animation-delay: 6s;
+}
+.crossfadeA > img:nth-child(3) {
+    background-image: src("http://danielchocolates.com/wp-content/uploads/2015/11/shop-pastries-banner.jpg");
+    animation-delay: 12s;
+}
+.crossfadeA > img:nth-child(4) {
+    background-image: src('https://afrostore.files.wordpress.com/2011/01/bread.jpg');
+    animation-delay: 18s;
+}
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1; }
+    25% { opacity: 0;
+      animation-timing-function: ease-in;}
+    100% { opacity: 0; }
+}
+
+.crossfadeB > img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 340px;
+    right: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 24s linear infinite 0s;
+}
+.crossfadeB > img:nth-child(2) {
+    background-image: src("http://d2gk7xgygi98cy.cloudfront.net/14-3-large.jpg");
+    animation-delay: 6s;
+}
+.crossfadeB > img:nth-child(3) {
+    background-image: src("http://danielchocolates.com/wp-content/uploads/2015/11/shop-pastries-banner.jpg");
+    animation-delay: 12s;
+}
+.crossfadeB > img:nth-child(4) {
+    background-image: src('https://afrostore.files.wordpress.com/2011/01/bread.jpg');
+    animation-delay: 18s;
+}
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1; }
+    25% { opacity: 0;
+      animation-timing-function: ease-in;}
+    100% { opacity: 0; }
+}
+
+.crossfadeC > img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 540px;
+    right: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 24s linear infinite 0s;
+}
+.crossfadeC > img:nth-child(2) {
+    background-image: src("http://d2gk7xgygi98cy.cloudfront.net/14-3-large.jpg");
+    animation-delay: 6s;
+}
+.crossfadeC > img:nth-child(3) {
+    background-image: src("http://danielchocolates.com/wp-content/uploads/2015/11/shop-pastries-banner.jpg");
+    animation-delay: 12s;
+}
+.crossfadeC > img:nth-child(4) {
+    background-image: src('https://afrostore.files.wordpress.com/2011/01/bread.jpg');
+    animation-delay: 18s;
+}
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1; }
+    25% { opacity: 0;
+      animation-timing-function: ease-in;}
+    100% { opacity: 0; }
+}
